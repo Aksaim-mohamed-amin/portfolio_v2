@@ -25,7 +25,7 @@ import {SkillsComponent} from "./skills/skills.component";
 })
 export class AppComponent {
     title = 'Aksaim Mohamed Amin';
-    isLoading = false;
+    isLoading = true;
 
     constructor() {
         setTimeout(() => {
