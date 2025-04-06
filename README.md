@@ -1,59 +1,50 @@
-# Portfolio
+# 🌐 Aksaim Mohamed Amin — Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+Welcome to the source code of my personal portfolio!
 
-## Development server
+## 👋 About Me
 
-To start a local development server, run:
+I'm **Aksaim Mohamed Amin**, a passionate Software Engineer currently pursuing a Master's in Advanced Web Engineering. With a strong foundation in software development and a background in email marketing, I focus on building user-friendly and performant web applications.
 
-```bash
-ng serve
-```
+I’ve worked on web technologies across the stack and enjoy creating clean, functional, and visually engaging user interfaces. This portfolio is a reflection of my skills and interests in front-end development.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 💻 About the Portfolio
 
-## Code scaffolding
+This portfolio was built to showcase my skills, projects, and experience in a modern and interactive way. It was developed using:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **Angular**
+- **Bootstrap 5**
+- **HTML & CSS**
+- **JavaScript**
+- **SlideJS** for sliders
+- **Custom Animations** for smooth and dynamic transitions
 
-```bash
-ng generate component component-name
-```
+The goal was to create a clean, responsive, and animated user experience that highlights my front-end development capabilities.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📁 Technologies & Tools
 
-```bash
-ng generate --help
-```
+- **Angular 16+**
+- **Bootstrap 5**
+- **TypeScript**
+- **HTML5 & CSS3**
+- **JavaScript**
+- **SlideJS** (Slider library)
+- **Custom CSS/Angular animations**
+- **Responsive design principles**
+- **GitHub Actions** (for CI/CD automation)
 
-## Building
+## 📌 Skills Highlighted
 
-To build the project run:
+- Front-end UI/UX design
+- Responsive and mobile-first development
+- Component-based architecture
+- Integration of third-party libraries
+- Creating interactive animations
+- Clean code structure and maintainability
+- Automation of deployment using GitHub Actions
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Thanks for checking out my work!
+🔗 [Visit my live portfolio](https://aksaim.tech)
+Feel free to explore the code and reach out if you'd like to collaborate or connect.
