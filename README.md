@@ -1,6 +1,6 @@
-# 🌐 Aksaim Mohamed Amin — Portfolio
+# 🌐 Aksaim Mohamed Amin — Portfolio V2
 
-Welcome to the source code of my personal portfolio!
+Welcome to the source code of my personal portfolio version2 (Angular Version)!
 
 ## 👋 About Me
 
