@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Portfolio V1",
+        "image": "/images/projects/portfolio_v1.png",
+        "description": "My first portfolio website, built using Flask, html css bootstrap 5 and javascript, and hosted on a server maintained by me It was a simple project to showcase my skills and projects.",
+        "stack": [
+            "flask",
+            "html",
+            "css",
+            "javascript",
+            "bootstrap",
+            "linux",
+            "nginx"
+        ],
+        "url": "https://v1.aksaim.tech"
+    },
+    {
+        "title": "Portfolio V2",
+        "image": "/images/projects/portfolio_v2.png",
+        "description": "The second version of my portfolio website, built using Angular, html css bootstrap5 swiperJs and javascript, and hosted on a server maintained by me It was a simple project to showcase my skills and projects.",
+        "stack": [
+            "angular",
+            "html",
+            "css",
+            "javascript",
+            "bootstrap",
+            "linux",
+            "nginx"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/portfolio_v2",
+        "url": "https://v2.aksaim.tech"
+    },
+    {
+        "title": "LeetCode Challenges",
+        "image": "/images/projects/leetcode.png",
+        "description": "I like solving coding chalenges on leetcode and i made a repo containing all my solutions to the problems I solved on leetcode. The repo is public and contains all the problems I solved on leetcode.",
+        "stack": [
+            "java"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/coding-challenges.git",
+        "url": "https://leetcode.com/u/aksaimmohamedamin/"
+    },
+    {
+        "title": "Template One",
+        "image": "/images/projects/template_one.png",
+        "description": "website templet with HTML CSS and JavaScript, it is hosted on github pages.",
+        "stack": [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/Template_One",
+        "url": "https://aksaim-mohamed-amin.github.io/Template_One/"
+    },
+    {
+        "title": "Template Two",
+        "image": "/images/projects/template_two.png",
+        "description": "website templet with HTML CSS and JavaScript, it is hosted on github pages.",
+        "stack": [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/Template_Two",
+        "url": "https://aksaim-mohamed-amin.github.io/Template_Two/"
+    }
+]

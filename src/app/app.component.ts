@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, HostListener} from '@angular/core';
 import {LoaderComponent} from "./loader/loader.component";
 import {NgIf} from "@angular/common";
 import {HeaderComponent} from "./header/header.component";
@@ -25,7 +25,7 @@ import {SkillsComponent} from "./skills/skills.component";
 })
 export class AppComponent {
     title = 'Aksaim Mohamed Amin';
-    isLoading = false;
+    isLoading = true;
 
     constructor() {
         setTimeout(() => {

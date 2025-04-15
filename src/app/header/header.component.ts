@@ -21,7 +21,8 @@ export class HeaderComponent {
             const element = document.getElementById(section);
             if (element) {
                 const rect = element.getBoundingClientRect();
-                if (rect.top <= 100 && rect.bottom >= 100) {
+                const middle = window.innerHeight / 2;
+                if (rect.top <= middle && rect.bottom >= middle) {
                     this.activeSection = section;
                     break;
                 }
