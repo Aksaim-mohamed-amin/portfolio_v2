@@ -1,19 +1,17 @@
-<!-- TODO: Finish the slider (need all slides to be the same height) -->
 <!-- TODO: Add all the projects to the json file -->
-
 <section id="projects">
     <div class="container-lg">
         <div class="section-title animate-on-scroll">Projects</div>
         <div class="lead animate-on-scroll">Here are some of the projects I have worked on.</div>
         <swiper-container
-            class="swiper-container animate-on-scroll"
+            class="animate-on-scroll"
             grab-cursor="true"
             centered-slides="true"
             initial-slide="2"
             speed="600"
             breakpoints='{"0": {"slidesPerView": 1}, "700": {"slidesPerView": 2}, "1000": {"slidesPerView": 3}}'
             effect="coverflow"
-            coverflow-effect='{"rotate": 0, "stretch": 80, "depth": 350, "modifier": 1, "slideShadows": false}'
+            coverflow-effect='{"rotate": 0, "stretch": 80, "depth": 400, "modifier": 1, "slideShadows": false}'
             slide-to-clicked-slide="true"
             keyboard="true"
         >
@@ -27,17 +25,22 @@
                             {{ project.title }}
                         </div>
                         <div class="tech-stack">
-                            <img *ngFor="let tech of project.stack" [src]="'/images/stack-icons/' + tech + '.svg'" [alt]="tech + ' icon'" class="stack-icon">
+                            <img *ngFor="let tech of project.stack" [src]="'/images/stack-icons/' + tech + '.svg'"
+                                 [alt]="tech + ' icon'" class="stack-icon">
                         </div>
                         <div class="card-content">
                             {{ project.description }}
                         </div>
-                      <a class="card-link" *ngIf="project.github" [href]="project.github" target="_blank" rel="noopener">
-                        Github <i class="bi bi-box-arrow-up-right"></i>
-                      </a>
-                        <a class="card-link" *ngIf="project.url" [href]="project.url" target="_blank" rel="noopener">
-                        Live <i class="bi bi-box-arrow-up-right"></i>
-                      </a>
+                        <div class="links">
+                            <a class="card-link" *ngIf="project.github" [href]="project.github" target="_blank"
+                               rel="noopener">
+                                Github <i class="bi bi-box-arrow-up-right"></i>
+                            </a>
+                            <a class="card-link" *ngIf="project.url" [href]="project.url" target="_blank"
+                               rel="noopener">
+                                Live <i class="bi bi-box-arrow-up-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </swiper-slide>

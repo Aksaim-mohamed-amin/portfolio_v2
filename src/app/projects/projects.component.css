@@ -17,6 +17,7 @@
     background-color: var(--bg-color);
     border: 1px solid var(--purple);
     overflow: hidden;
+    height: 100%;
 }
 
 .card-image img {
@@ -25,6 +26,8 @@
 
 .card-body {
     padding: 5px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-title {
@@ -50,6 +53,7 @@
     color: var(--white);
     line-height: 1.8;
     margin: 20px 0;
+    flex: 1;
 }
 
 .card-link {
@@ -67,15 +71,21 @@
     background-color: var(--purple-70);
 }
 
-.swiper-container {
+/* Swiper */
+swiper-container {
     opacity: 0;
 }
 
-.swiper-container.visible {
-    animation: apearFromCenter 1s 0.5s ease-in forwards;
+swiper-container.visible {
+    animation: apearFromCenter 1s .5s ease-in forwards;
 }
 
-/**/
+swiper-slide {
+    height: auto;
+    filter: brightness(80%);
+}
+
 .swiper-slide-active {
-  transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+    filter: brightness(1);
 }

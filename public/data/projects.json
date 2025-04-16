@@ -1,29 +1,29 @@
 [
     {
-        "title": "Portfolio V1",
+        "title": "Portfolio Website v1 (Flask)",
         "image": "/images/projects/portfolio_v1.png",
-        "description": "My first portfolio website, built using Flask, html css bootstrap 5 and javascript, and hosted on a server maintained by me It was a simple project to showcase my skills and projects.",
+        "description": "The first version of my personal portfolio, developed using Flask, Bootstrap 5, and vanilla JavaScript. It’s a simple yet functional site to showcase my work, fully deployed and maintained on my own Linux server using Nginx.",
         "stack": [
+            "bootstrap",
+            "css",
             "flask",
             "html",
-            "css",
             "javascript",
-            "bootstrap",
             "linux",
             "nginx"
         ],
         "url": "https://v1.aksaim.tech"
     },
     {
-        "title": "Portfolio V2",
+        "title": "Portfolio Website v2 (Angular)",
         "image": "/images/projects/portfolio_v2.png",
-        "description": "The second version of my portfolio website, built using Angular, html css bootstrap5 swiperJs and javascript, and hosted on a server maintained by me It was a simple project to showcase my skills and projects.",
+        "description": "The second iteration of my portfolio website, built using Angular, Bootstrap 5, Swiper.js, and JavaScript. It includes animations and improved UI/UX, deployed on my own server with Nginx and Linux.",
         "stack": [
             "angular",
-            "html",
-            "css",
-            "javascript",
             "bootstrap",
+            "css",
+            "html",
+            "javascript",
             "linux",
             "nginx"
         ],
@@ -31,9 +31,9 @@
         "url": "https://v2.aksaim.tech"
     },
     {
-        "title": "LeetCode Challenges",
+        "title": "LeetCode Java Solutions",
         "image": "/images/projects/leetcode.png",
-        "description": "I like solving coding chalenges on leetcode and i made a repo containing all my solutions to the problems I solved on leetcode. The repo is public and contains all the problems I solved on leetcode.",
+        "description": "A public GitHub repository containing all my Java solutions to LeetCode challenges. This project demonstrates my problem-solving skills and commitment to continuous learning in data structures and algorithms.",
         "stack": [
             "java"
         ],
@@ -41,24 +41,24 @@
         "url": "https://leetcode.com/u/aksaimmohamedamin/"
     },
     {
-        "title": "Template One",
+        "title": "HTML Template One",
         "image": "/images/projects/template_one.png",
-        "description": "website templet with HTML CSS and JavaScript, it is hosted on github pages.",
+        "description": "A responsive website template created using HTML, CSS, and JavaScript. Hosted on GitHub Pages and designed for fast loading and clean layout.",
         "stack": [
-            "html",
             "css",
+            "html",
             "javascript"
         ],
         "github": "https://github.com/Aksaim-mohamed-amin/Template_One",
         "url": "https://aksaim-mohamed-amin.github.io/Template_One/"
     },
     {
-        "title": "Template Two",
+        "title": "HTML Template Two",
         "image": "/images/projects/template_two.png",
-        "description": "website templet with HTML CSS and JavaScript, it is hosted on github pages.",
+        "description": "Another modern and clean website template made with HTML, CSS, and JavaScript. Deployed on GitHub Pages for easy access and sharing.",
         "stack": [
-            "html",
             "css",
+            "html",
             "javascript"
         ],
         "github": "https://github.com/Aksaim-mohamed-amin/Template_Two",

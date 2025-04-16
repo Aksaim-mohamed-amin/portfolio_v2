@@ -1,12 +1,13 @@
-import {Component, HostListener} from '@angular/core';
+import {Component} from '@angular/core';
 import {LoaderComponent} from "./loader/loader.component";
 import {NgIf} from "@angular/common";
 import {HeaderComponent} from "./header/header.component";
 import {HomeComponent} from "./home/home.component";
 import {ProjectsComponent} from "./projects/projects.component";
 import {ContactComponent} from "./contact/contact.component";
-import {FooterComponent} from "./footer/footer.component";
 import {SkillsComponent} from "./skills/skills.component";
+
+declare var particlesJS: any;
 
 @Component({
     selector: 'app-root',
@@ -17,7 +18,6 @@ import {SkillsComponent} from "./skills/skills.component";
         HomeComponent,
         ProjectsComponent,
         ContactComponent,
-        FooterComponent,
         SkillsComponent
     ],
     templateUrl: './app.component.html',
@@ -30,6 +30,11 @@ export class AppComponent {
     constructor() {
         setTimeout(() => {
             this.isLoading = false;
+            this.initializeParticles();
         }, 2700);
+    }
+
+    initializeParticles() {
+        particlesJS.load('particles-js', '/data/particles.json');
     }
 }

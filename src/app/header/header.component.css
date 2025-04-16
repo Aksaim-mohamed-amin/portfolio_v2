@@ -3,9 +3,13 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    background-color: var(--bg-color);
+    background-color: transparent;
     opacity: 0;
     animation: showFromTop .7s .5s ease-in-out forwards;
+}
+
+header.scrolled {
+    background-color: var(--bg-color);
 }
 
 .navbar-brand {
