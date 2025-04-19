@@ -41,6 +41,19 @@
         "url": "https://leetcode.com/u/aksaimmohamedamin/"
     },
     {
+        "title": "Match Management API",
+        "image": "/images/projects/match_api.png",
+        "description": "A backend RESTful API built with Java and Spring Boot to manage games, teams, players, referees, and stadiums. Includes Dockerized MySQL setup and Postman collections for testing.",
+        "stack": [
+            "java",
+            "spring",
+            "mysql",
+            "docker",
+            "postman"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/matchApi"
+    },
+    {
         "title": "HTML Template One",
         "image": "/images/projects/template_one.png",
         "description": "A responsive website template created using HTML, CSS, and JavaScript. Hosted on GitHub Pages and designed for fast loading and clean layout.",
