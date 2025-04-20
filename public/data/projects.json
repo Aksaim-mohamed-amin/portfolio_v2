@@ -12,7 +12,8 @@
             "linux",
             "nginx"
         ],
-        "url": "https://v1.aksaim.tech"
+        "github": "https://github.com/Aksaim-mohamed-amin/portfolio_v1",
+        "url": "https://v1.aksaim.me"
     },
     {
         "title": "Portfolio Website v2 (Angular)",
@@ -28,7 +29,7 @@
             "nginx"
         ],
         "github": "https://github.com/Aksaim-mohamed-amin/portfolio_v2",
-        "url": "https://v2.aksaim.tech"
+        "url": "https://v2.aksaim.me"
     },
     {
         "title": "LeetCode Java Solutions",
