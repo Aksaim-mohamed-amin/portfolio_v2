@@ -32,6 +32,67 @@
         "url": "https://v2.aksaim.me"
     },
     {
+        "title": "ALX Low-Level Programming",
+        "image": "/images/projects/alx_low_level.jpg",
+        "description": "A collection of low-level programming projects from the ALX Software Engineering program. It covers core concepts like memory management, pointers, data structures, recursion, file I/O, and basic algorithms. All code follows the Betty style and is compiled using gcc on Ubuntu.",
+        "stack": [
+            "c",
+            "gnu",
+            "linux",
+            "vim",
+            "emacs"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/alx-low_level_programming"
+    },
+    {
+        "title": "ALX Higher-Level Programming",
+        "image": "/images/projects/alx_higher_level.jpg",
+        "description": "A collection of Python and JavaScript projects completed as part of the ALX Software Engineering program. Covers core programming concepts including OOP, data structures, exceptions, inheritance, file I/O, APIs, web scraping, and SQL. Code follows PEP 8 guidelines and is organized by topic for structured learning.",
+        "stack": [
+            "python",
+            "javascript",
+            "mysql"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/alx-higher_level_programming"
+    },
+    {
+        "title": "ALX System Engineering & DevOps",
+        "image": "/images/projects/alx_devops.jpg",
+        "description": "Projects covering core system engineering and DevOps skills from the ALX Software Engineering program. Topics include shell scripting, permissions, networking, SSH, firewalls, server setup, web infrastructure, APIs, and monitoring. Designed to build strong foundations in IT operations and automation.",
+        "stack": [
+            "bash",
+            "linux"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/alx-system_engineering-devops"
+    },
+    {
+        "title": "Printf Function Clone in C",
+        "image": "/images/projects/printf.jpeg",
+        "description": "A custom implementation of the C standard printf function, developed as part of the ALX Software Engineering program. Supports various format specifiers and replicates core functionality of the original for formatted output handling.",
+        "stack": [
+            "c"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/printf"
+    },
+    {
+        "title": "Binary Trees in C",
+        "image": "/images/projects/binary_trees.png",
+        "description": "A comprehensive project implementing various operations on binary trees in C, including traversal, insertion, deletion, balance checking, AVL trees, and binary search trees. Developed as part of the ALX Software Engineering program.",
+        "stack": [
+            "c"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/binary_trees"
+    },
+    {
+        "title": "Sorting Algorithms in C",
+        "image": "/images/projects/sorting-algorithms.png",
+        "description": "An educational project focused on implementing classic sorting algorithms in C, such as Bubble Sort, Insertion Sort, and Selection Sort. Includes visualization helpers for arrays and linked lists. Built as part of the ALX Software Engineering program.",
+        "stack": [
+            "c"
+        ],
+        "github": "https://github.com/Aksaim-mohamed-amin/sorting_algorithms"
+    },
+    {
         "title": "LeetCode Java Solutions",
         "image": "/images/projects/leetcode.png",
         "description": "A public GitHub repository containing all my Java solutions to LeetCode challenges. This project demonstrates my problem-solving skills and commitment to continuous learning in data structures and algorithms.",
