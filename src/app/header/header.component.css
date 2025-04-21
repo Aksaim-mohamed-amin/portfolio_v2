@@ -66,6 +66,10 @@ header.scrolled {
     background-color: var(--purple-70);
 }
 
+.navbar-toggler {
+    background-color: var(--purple-70);
+}
+
 @keyframes showFromTop {
     from {
         transform: translateY(-100%);
@@ -75,4 +79,33 @@ header.scrolled {
         transform: translateY(0);
         opacity: 1;
     }
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        height: calc(100vh - 56px);
+        width: 100vw;
+        background-color: var(--bg-color);
+        z-index: 9999;
+        transition: all 0s ease-in-out;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.2rem;
+        margin: 0 auto;
+    }
+
+    .nav-link::before {
+        font-size: 1.2rem;
+        left: -5px;
+    }
+
+    .resume {
+        display: block;
+        margin: 15px auto;
+    }
+
 }

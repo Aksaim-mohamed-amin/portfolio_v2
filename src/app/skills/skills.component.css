@@ -77,3 +77,18 @@
 }
 
 
+@media (max-width: 768px) {
+    .card {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .card-title {
+        top: 0;
+        left: 5px;
+        transform: translateY(-70%);
+        font-size: 0.8rem;
+        width: 80%;
+        text-align: center;
+    }
+}

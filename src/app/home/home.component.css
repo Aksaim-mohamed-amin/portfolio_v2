@@ -191,3 +191,41 @@ svg {
     color: var(--gray);
 }
 
+@media (max-width: 768px) {
+    section {
+        padding-top: 0px;
+    }
+
+    .wrapper {
+        justify-content: center;
+    }
+
+    /* image */
+    .image {
+        order: 1;
+        height: 320px;
+    }
+
+    .profile-image {
+        width: 260px;
+    }
+
+    .rocket {
+        display: none;
+    }
+
+    .info {
+        order: 2;
+        flex: 1 1 100%;
+    }
+
+    .working-on {
+        order: 3;
+        margin-top: 50px;
+    }
+
+
+    .title {
+        font-size: 2rem;
+    }
+}
